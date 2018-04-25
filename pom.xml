@@ -11,6 +11,7 @@
     <modules>
         <module>pnt</module>
         <module>letskodeit</module>
+        <module>Amazon</module>
     </modules>
 
     <dependencies>

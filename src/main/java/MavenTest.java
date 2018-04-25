@@ -25,9 +25,15 @@ public class MavenTest {
     public void LogintoNetflix() {
         webDriver.get("https://www.netflix.com/");
         webDriver.findElement(By.linkText("Sign In")).click();
-        webDriver.findElement(By.name("email")).sendKeys("test@email.com");
-        webDriver.findElement(By.name("password")).sendKeys("1234abcd");
+        webDriver.findElement(By.name("email")).sendKeys("nazibah95@gmail.com");
+        webDriver.findElement(By.name("password")).sendKeys("Nazibah95");
         webDriver.findElement(By.xpath("//button[@class='btn login-button btn-submit btn-small']")).click();
+        webDriver.findElement(By.className("profile-icon")).click();
+        webDriver.findElement(By.className("searchBox")).click();
+        webDriver.findElement(By.xpath("//div[@class='secondary-navigation']//button[@class='searchTab']")).sendKeys("Anime");
+        webDriver.findElement(By.className("notifications-menu")).click();
+
+
     }
 
 

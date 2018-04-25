@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="letskodeit" />
+        <module name="Amazon" />
         <module name="pnt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.5" />
       <module name="letskodeit" target="1.5" />
       <module name="pnt" target="1.5" />
       <module name="testing" target="1.5" />
